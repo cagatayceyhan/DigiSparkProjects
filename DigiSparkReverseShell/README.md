@@ -10,3 +10,8 @@ The backgroundpayload is the payload to be delivered on the target. It needs to 
 The actual digispark script is located in winrshell
 
 Both files need minor alteration. In the payload, your host IP needs to be added, and in the script, the URL of the file needs to be added
+
+
+In action here:
+
+https://youtu.be/MT6xNZacWI0
