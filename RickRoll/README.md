@@ -13,3 +13,7 @@ the LEFT_ARROW is there by default, so make sure you dont have two instances.
 Default path on Windows for the header is 
 
 C:/Users/user_name_here/AppData/Local/Arduino15/packages/digistump/hardware/avr/version_number_here/libraries/digisparkkeyboard/
+
+In action here: 
+
+https://youtu.be/Lh0FEbe47Mk
