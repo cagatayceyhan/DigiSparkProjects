@@ -1,3 +1,5 @@
+Setup:
+
 Replace the DigiSpark Keyboard header with the one listed in the file, or modify your own to include the TAB key.
 
 On windows the header is located:
@@ -15,3 +17,13 @@ Both files need minor alteration. In the payload, your host IP needs to be added
 In action here:
 
 https://youtu.be/MT6xNZacWI0
+
+On host Machine:
+
+For basic netcat shell: nc -lvnp 4444
+
+For Meterpreter Shell: 
+
+On Target Machine: 
+Just plug in the Digispark to the target and allow the digispark script to run
+
