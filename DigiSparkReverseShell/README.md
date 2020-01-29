@@ -1,4 +1,4 @@
-Setup:
+<h1>Setup:</h1>
 
 Replace the DigiSpark Keyboard header with the one listed in the file, or modify your own to include the TAB key.
 
@@ -18,12 +18,12 @@ In action here:
 
 https://youtu.be/MT6xNZacWI0
 
-On host Machine:
+<h1>On host Machine:</h1>
 
 For basic netcat shell: nc -lvnp 4444
 
 For Meterpreter Shell: 
 
-On Target Machine: 
+<h1>On Target Machine: </h1>
 Just plug in the Digispark to the target and allow the digispark script to run
 
