@@ -12,4 +12,4 @@ param ( [string]$SourceLnk, [string]$DestinationPath )
 
     }
 
-set-shortcut "C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgpl.lnk" "C:\Program Files\Windows Photo Viewer\bgpl.ps1"
+set-shortcut "C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgpl.lnk" "bgpl.ps1"
