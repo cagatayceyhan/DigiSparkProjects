@@ -1,6 +1,7 @@
 <h1>Setup:</h1>
-bgpl.ps1 = Background Payload, you'll need to change the IP listed here to the IP that you want the target to connect to<br>
+dgb.ino = The main arduino script for the digispark
 mpl.ps1 = Main Payload, downloads the other scripts needed and places them in sneaky spots<br>
+bgpl.ps1 = Background Payload, you'll need to change the IP listed here to the IP that you want the target to connect to<br>
 scm.ps1 = Short Cut Maker, makes a shortcut of bgpl.ps1 and places it in /Startup so it runs on PC boot<p></p>
 
 Replace the DigiSpark Keyboard header with the one listed in the file, or modify your own to include the TAB key.
