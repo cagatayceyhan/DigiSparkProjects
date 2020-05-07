@@ -1,5 +1,6 @@
+For use on a windows target and linux host<br>
 <h1>Setup:</h1>
-dgb.ino = The main arduino script for the digispark
+dgb.ino = The main arduino script for the digispark<br>
 mpl.ps1 = Main Payload, downloads the other scripts needed and places them in sneaky spots<br>
 bgpl.ps1 = Background Payload, you'll need to change the IP listed here to the IP that you want the target to connect to<br>
 scm.ps1 = Short Cut Maker, makes a shortcut of bgpl.ps1 and places it in /Startup so it runs on PC boot<p></p>
