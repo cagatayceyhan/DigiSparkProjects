@@ -12,4 +12,4 @@ param ( [string]$SourceLnk, [string]$DestinationPath )
 
     }
 
-set-shortcut "C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgpl.ps1.lnk" "bgpl.ps1"
+set-shortcut "~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgpl.ps1.lnk" "~\Documents\Adobe\Common\BTX\bgpl.ps1"
