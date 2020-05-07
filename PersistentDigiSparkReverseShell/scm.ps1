@@ -1,3 +1,4 @@
+mkdir "C:\Users\Public\Documents\Adobe\Common\BTX"
 function set-shortcut {
 
 param ( [string]$SourceLnk, [string]$DestinationPath )
@@ -11,5 +12,6 @@ param ( [string]$SourceLnk, [string]$DestinationPath )
     $Shortcut.Save()
 
     }
-
-set-shortcut "~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bgpl.ps1.lnk" "~\Documents\Adobe\Common\BTX\bgpl.ps1"
+set-shortcut "C:\Users\Public\Documents\Adobe\Common\BTX\bgpl.ps1.lnk" "C:\Users\Public\Documents\Adobe\Common\BTX\bgpl.ps1"
+cd "~/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup"
+Copy-Item -Path C:\Users\Public\Documents\Adobe\Common\BTX\bgpl.ps1.lnk -Destination bgpl.ps1.lnk
